@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Batch6Selenium(failed)">
+    <classes>
+      <class name="testClasses.RegistrationUATest">
+        <methods>
+          <include name="registration"/>
+          <include name="enterFirstname"/>
+          <include name="submitButton"/>
+          <include name="teardown"/>
+          <include name="appInitialize"/>
+        </methods>
+      </class> <!-- testClasses.RegistrationUATest -->
+    </classes>
+  </test> <!-- Batch6Selenium(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
