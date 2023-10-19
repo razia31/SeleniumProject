@@ -111,6 +111,6 @@ public class LoginUAPage {
         loginButtonPath.click();
     }
 
-System.out.println("New Line contributed by other team memeber");
+//System.out.println("New Line contributed by other team memeber");
 
 }
